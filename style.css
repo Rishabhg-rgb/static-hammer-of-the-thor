@@ -268,11 +268,11 @@ input[type="tel"]:invalid {
         width: 50rem;
     }
     nav a h1{
-        font-size: 3rem;
+        font-size: 6rem;
     }
     .first {
         width: 50rem;
-        height: 50rem;
+        height: 90rem;
     }
     .upper h2{
         font-size: 2.6rem;
@@ -280,11 +280,11 @@ input[type="tel"]:invalid {
     }
     
     .rightsection h2{
-        font-size: 3rem;
+        font-size: 5rem;
     }
     .productimg  {
-        height: 35rem;
-        width: 18rem;
+        height: 55rem;
+        width: 25rem;
     }
 
     .number a {
@@ -301,5 +301,8 @@ input[type="tel"]:invalid {
 
     .orderform {
         width: 50rem;
+    }
+    .float-child-right{
+        font-size: 4rem;
     }
 }
