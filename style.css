@@ -13,7 +13,16 @@ nav {
     background-color: black;
     width: inherit;
 }
-
+.header__btn{
+    margin-top: 21px;
+    margin: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    top: unset; color:#232323;
+    background-color: aqua; 
+    padding: 0.5rem 2.5rem; 
+    border-radius: 5rem;
+}
 nav a {
     text-decoration: none;
 
@@ -302,7 +311,7 @@ input[type="tel"]:invalid {
     .orderform {
         width: 50rem;
     }
-    .float-child-right{
-        font-size: 4rem;
+    .header__btn{
+        font-size: 5rem;
     }
 }
