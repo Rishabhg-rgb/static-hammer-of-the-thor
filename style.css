@@ -263,8 +263,12 @@ input[type="tel"]:invalid {
     margin-top: 10px;
     /*padding: 20px;*/
 }
-
+.gif{
+    width:125px;height:125px;
+}
+#png6{width: 40rem; margin: auto;}
 @media  (min-width:200px) and (max-width:800px) {
+    
     *{
         width: auto;
         
@@ -274,14 +278,14 @@ input[type="tel"]:invalid {
         
     }
     nav {
-        width: 50rem;
+        width: 24rem;
     }
     nav a h1{
-        font-size: 6rem;
+        font-size: 4rem;
     }
     .first {
-        width: 50rem;
-        height: 90rem;
+        width: 23rem;
+        height: 37rem;
     }
     .upper h2{
         font-size: 2.6rem;
@@ -289,15 +293,15 @@ input[type="tel"]:invalid {
     }
     
     .rightsection h2{
-        font-size: 5rem;
+        font-size: 2rem;
     }
     .productimg  {
-        height: 55rem;
-        width: 25rem;
+        height: 28rem;
+        width: 11rem;
     }
 
     .number a {
-        font-size: 4rem;
+        font-size: 2rem;
     }
 
     section {
@@ -312,6 +316,52 @@ input[type="tel"]:invalid {
         width: 50rem;
     }
     .header__btn{
-        font-size: 5rem;
+        font-size: 2rem;
+    }
+    .second{
+        width: 24rem;
+    }
+    .upper h2{
+        font-size: 1.4rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    .lower{
+        margin: 0%;
+    }
+    .container{
+        width: 23rem;
+    }
+    .container h1{
+        font-size: medium;
+    }
+     .problems{
+        width: 24rem;
+    }
+    
+    .upperimg img{
+        width: 24rem;
+    } 
+    .lowerimg img{
+        width: 24rem;
+    }
+    .benefits{
+        width: 24rem;
+    }
+    .images{
+        width: 23rem;
+    }
+    .customer{
+        width: 23rem;
+    }
+    .orderform{
+        width: 23rem;
+    }
+    #png6{
+        width: 23rem;
+    }
+    .gif{
+        height: 70px;
+        width: 70px;
     }
 }
