@@ -47,7 +47,7 @@ nav a h1 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: fit-content;
+    height: 100vh;
     align-items: center;
 }
 
@@ -60,7 +60,7 @@ a {
     text-decoration: none;
 }
 
-.number {
+.number a {
     font-size: 2.5rem;
     color: rgb(29, 206, 29);
     font-weight: bold;
@@ -267,10 +267,12 @@ input[type="tel"]:invalid {
     nav {
         width: 50rem;
     }
-
+    nav a h1{
+        font-size: 3rem;
+    }
     .first {
         width: 50rem;
-        height: 30rem;
+        height: 50rem;
     }
     .upper h2{
         font-size: 2.6rem;
@@ -281,12 +283,12 @@ input[type="tel"]:invalid {
         font-size: 3rem;
     }
     .productimg  {
-        height: 25rem;
-        width: 15rem;
+        height: 35rem;
+        width: 18rem;
     }
 
-    .number {
-        font-size: 3rem;
+    .number a {
+        font-size: 4rem;
     }
 
     section {
